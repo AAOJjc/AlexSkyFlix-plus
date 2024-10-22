@@ -1,0 +1,51 @@
+:root {
+    --branco-principal: white;
+    --azul-secundário: rgb(148, 148, 245);
+    --cor-botao: rgb(248, 153, 153);
+    --cor-de-fundo: black;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("FNAF.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.conteiner__botao {
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao_segundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.conteiner__imagem {
+    margin: 1 em 0 2 em 0;
+}
+.conteiner__caixa{ 
+    margin: 0 6 em;
+}
